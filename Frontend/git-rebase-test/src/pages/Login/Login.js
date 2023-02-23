@@ -28,7 +28,7 @@ export default function Login() {
             name="id"
             type="text"
             value={userInfo.id}
-            placeholder="이메일을 입력해 주세요!"
+            placeholder="이메일을 입력해 주세요."
             onChange={getUserInfo}
           />
           <input
@@ -36,7 +36,7 @@ export default function Login() {
             name="password"
             type="password"
             value={userInfo.password}
-            placeholder="비밀번호를 입력해 주세요!"
+            placeholder="비밀번호를 입력해 주세요."
             onChange={getUserInfo}
           />
           <button className="loginButton" type="button" disabled={!isValid}>
